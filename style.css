@@ -1,0 +1,40 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress child theme.
+Author: Cosmin
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+
+/* Background color for the side menu */
+
+#elementor-popup-modal-397 .dialog-widget-content,
+#elementor-popup-modal-412 .dialog-widget-content,
+#elementor-popup-modal-421 .dialog-widget-content,
+#elementor-popup-modal-425 .dialog-widget-content {
+    background-image: none !important;
+    background-color: #D5F4FF !important;
+    border: none !important;
+    padding-top: -100px !important;
+}
+
+#elementor-popup-modal-397 .dialog-message,
+#elementor-popup-modal-412 .dialog-message,
+#elementor-popup-modal-421 .dialog-message,
+#elementor-popup-modal-425 .dialog-message {
+    padding: 15px !important;
+    background-color: #D5F4FF !important;
+}
+
+
+
+/* 
+Hi Per! 
+
+The MVP is not responsive yet :( Sorry, but we ran out of time.
